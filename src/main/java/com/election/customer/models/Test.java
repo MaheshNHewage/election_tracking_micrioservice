@@ -1,7 +1,7 @@
 package com.election.customer.models;
 
 public class Test {
-
+        String nameTest;
         String name = "AKD";
         String post = "Npp Leader";
         String charateristic = "Humble";
