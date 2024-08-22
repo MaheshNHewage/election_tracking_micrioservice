@@ -1,6 +1,7 @@
 package com.election.customer.models;
 
 public class AnuraKD {
+
     private String nameTest;
     private String Name;
     private String possition;
