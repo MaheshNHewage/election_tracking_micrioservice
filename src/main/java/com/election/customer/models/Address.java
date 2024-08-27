@@ -1,5 +1,6 @@
 package com.election.customer.models;
 
+
 import lombok.Data;
 
 @Data
