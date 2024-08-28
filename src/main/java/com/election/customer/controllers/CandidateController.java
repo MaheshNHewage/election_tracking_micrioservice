@@ -1,20 +1,20 @@
 package com.election.customer.controllers;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.election.customer.models.CandidateRequest;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("election/candidate")
 public class CandidateController {
 
-    @PostMapping
-    public void candidateRegistration(){
-
-
+    @PostMapping("registration")
+    public String candidateRegistration(@RequestBody CandidateRequest candidateRequest){
+        return "registration successful";
     }
 
-
-
 }
+
+
 
 
 
